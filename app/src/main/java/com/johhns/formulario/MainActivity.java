@@ -55,8 +55,6 @@ public class MainActivity extends AppCompatActivity {
             teDescrip.setText( v_descrip );
         }
 
-
-
         vwFecha = findViewById(R.id.txtEditFecha) ;
         Calendar calendario = Calendar.getInstance() ;
         final int v_periodo = calendario.get(Calendar.YEAR) ;
